@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+.container{
+    width: 82.5rem;
+    padding: 1rem;
+    margin: 2rem auto 0 auto;
+    background-color: #eee;
+}
+
+.grid-chess{
+    display: grid;
+    grid-template-columns: repeat(8 , 100px);
+    grid-template-rows: repeat(8 , 100px);
+    border: 2.5px solid #000;
+}
+
+.white{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+}
+
+.black{
+    width: 100px;
+    height: 100px;
+    background: #000;
+}
